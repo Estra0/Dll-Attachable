@@ -44,7 +44,7 @@ g++ -shared -o mydll.dll DllMain.cpp -Wl,--subsystem,windows
 **Utilisation Éthique et Légale**: L'injection de DLL doit être effectuée de manière responsable et légale. Cette technique peut être utilisée à des fins malveillantes (comme le développement de cheats pour les jeux vidéo), ce qui est généralement interdit et peut être illégal. Assurez-vous de respecter les termes de service des logiciels et de suivre les lois en vigueur.
 **Compatibilité et Tests**: Assurez-vous de tester la DLL dans un environnement sécurisé et de vérifier sa compatibilité avec le système cible pour éviter des effets indésirables.
 
-##📦 Déploiement
+## 📦 Déploiement
 Pour déployer cette DLL, vous devrez l'injecter dans le processus cible. Cela peut être fait en utilisant des outils de débogage ou des injecteurs de DLL, en fonction de vos besoins spécifiques.
 
 Ce projet fournit une base pour comprendre la création et l'injection de DLL en C++. Il est destiné à des fins éducatives et de développement, avec un accent sur une utilisation responsable et éthique.
